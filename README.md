@@ -17,3 +17,7 @@ To build, download the source code (through the zip file or with ```git clone```
     # Run your prefered build method
     # NOTE: "-p"(in mkdir) is not on Windows, for powershell, use a semicolon instead of &&
 ```
+
+## The game binaries
+
+You can find the games binaries on [itch.io](https://lumis-dev.itch.io/escaper-3) or on the [releases page](https://github.com/LumisDev/escaper3/releases).
