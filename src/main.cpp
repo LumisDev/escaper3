@@ -7,7 +7,6 @@
 #include <box2d/b2_math.h>
 #include <box2d/b2_collision.h>
 #include <box2d/b2_polygon_shape.h>
-#include <iostream>
 
 
 int main()
@@ -80,7 +79,6 @@ int main()
         // Update object position based on Box2D physics
         b2Vec2 position = circleBody->GetPosition();
         circle.setPosition(position.x - circle.getRadius(), position.y - circle.getRadius());
-        std::cout << position.x << ", " << position.y << std::endl;
         window.clear();
         window.draw(rectangle);
         window.draw(circle);
