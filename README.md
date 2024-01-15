@@ -9,7 +9,7 @@ First you need to have:
  1. And a C++ build system (*i. e.* Ninja, Make) or Visual Studio
  > *****NOTE*****: For IDEs, CMake generates a project file.
 
-To build, download the source code (through the zip file or with ```git clone```) and run:
+To build, download the source code (through the zip file on the [releases page](https://github.com/LumisDev/escaper3/releases) or with ```git clone```) and run:
  
 ```bash
     mkdir -p build && cd build
