@@ -4,6 +4,9 @@
 #include <box2d/b2_circle_shape.h>
 #include <box2d/b2_fixture.h>
 #include <box2d/b2_world.h>
+#include <box2d/b2_polygon_shape.h>
+
+
 
 // Create the main window
 
@@ -18,6 +21,9 @@ int main()
     // Create a Box2D world
     b2Vec2 gravity(0.0f, 9.8f);
     b2World world(gravity);
+
+
+    // Define the ground body
 
     b2BodyDef circleBodyDef;
     circleBodyDef.type = b2_dynamicBody;
